@@ -1,0 +1,56 @@
+{
+    "name": "cocart-vscode",
+    "displayName": "CoCart - Snippets & Autocomplete",
+    "description": "A collection of CoCart snippets and autocompletions.",
+    "version": "1.0.0",
+    "publisher": "sebastien-dumont",
+    "author": {
+        "name": "Sébastien Dumont"
+    },
+    "license": "GPLv3",
+    "homepage": "https://github.com/co-cart/cocart-vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/co-cart/cocart-vscode"
+    },
+    "bugs": {
+        "url": "https://github.com/co-cart/cocart-vscode/issues"
+    },
+    "icon": "images/icon.jpg",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "keywords": [
+        "php",
+        "wordpress",
+        "woocommerce",
+        "cocart"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/functions.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/actions.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/filters.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/constants.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/constants-pro.json"
+            }
+        ]
+    }
+}

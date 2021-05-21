@@ -1,0 +1,92 @@
+{
+    "cocart_add_to_cart": {
+        "prefix": "cocart_add_to_cart",
+        "body": "cocart_add_to_cart",
+        "description": "Action: cocart_add_to_cart"
+    },
+    "aa_cocart_add_to_cart": {
+        "prefix": "aa_cocart_add_to_cart",
+        "body": "add_action( 'cocart_add_to_cart', ${2:'${1:callback}'}${3}, 10, 6 );",
+        "description": "Action snippet: cocart_add_to_cart"
+    },
+    "cocart_item_added_updated_in_cart": {
+        "prefix": "cocart_item_added_updated_in_cart",
+        "body": "cocart_item_added_updated_in_cart",
+        "description": "Action: cocart_item_added_updated_in_cart"
+    },
+    "aa_cocart_item_added_updated_in_cart": {
+        "prefix": "aa_cocart_item_added_updated_in_cart",
+        "body": "add_action( 'cocart_item_added_updated_in_cart', ${2:'${1:callback}'}${3}, 10, 4 );",
+        "description": "Action hook triggered once item is added again but updated in cart."
+    },
+    "cocart_item_added_to_cart": {
+        "prefix": "cocart_item_added_to_cart",
+        "body": "cocart_item_added_to_cart",
+        "description": "Action: cocart_item_added_to_cart"
+    },
+    "aa_cocart_item_added_to_cart": {
+        "prefix": "aa_cocart_item_added_to_cart",
+        "body": "add_action( 'cocart_item_added_to_cart', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Action hook triggered once item is added."
+    },
+    "cocart_before_cart_emptied": {
+        "prefix": "cocart_before_cart_emptied",
+        "body": "cocart_before_cart_emptied",
+        "description": "Action: cocart_before_cart_emptied"
+    },
+    "aa_cocart_before_cart_emptied": {
+        "prefix": "aa_cocart_before_cart_emptied",
+        "body": "add_action( 'cocart_before_cart_emptied', ${2:'${1:callback}'}${3} );",
+        "description": "Action: cocart_before_cart_emptied"
+    },
+    "cocart_cart_emptied": {
+        "prefix": "cocart_cart_emptied",
+        "body": "cocart_cart_emptied",
+        "description": "Action: cocart_cart_emptied"
+    },
+    "aa_cocart_cart_emptied": {
+        "prefix": "aa_cocart_cart_emptied",
+        "body": "add_action( 'cocart_cart_emptied', ${2:'${1:callback}'}${3} );",
+        "description": "Action: cocart_cart_emptied"
+    },
+    "cocart_cart_cleared": {
+        "prefix": "cocart_cart_cleared",
+        "body": "cocart_cart_cleared",
+        "description": "Action: cocart_cart_cleared"
+    },
+    "aa_cocart_cart_cleared": {
+        "prefix": "aa_cocart_cart_cleared",
+        "body": "add_action( 'cocart_cart_cleared', ${2:'${1:callback}'}${3} );",
+        "description": "Action: cocart_cart_cleared"
+    },
+    "cocart_item_removed": {
+        "prefix": "cocart_item_removed",
+        "body": "cocart_item_removed",
+        "description": "Action: cocart_item_removed"
+    },
+    "aa_cocart_item_removed": {
+        "prefix": "aa_cocart_item_removed",
+        "body": "add_action( 'cocart_item_removed', ${2:'${1:callback}'}${3}, 10, 1 );",
+        "description": "Action: cocart_item_removed"
+    },
+    "cocart_item_restored": {
+        "prefix": "cocart_item_restored",
+        "body": "cocart_item_restored",
+        "description": "Action: cocart_item_restored"
+    },
+    "aa_cocart_item_restored": {
+        "prefix": "aa_cocart_item_restored",
+        "body": "add_action( 'cocart_item_restored', ${2:'${1:callback}'}${3}, 10, 1 );",
+        "description": "Action: cocart_item_restored"
+    },
+    "cocart_item_quantity_changed": {
+        "prefix": "cocart_item_quantity_changed",
+        "body": "cocart_item_quantity_changed",
+        "description": "Action: cocart_item_quantity_changed"
+    },
+    "aa_cocart_item_quantity_changed": {
+        "prefix": "aa_cocart_item_quantity_changed",
+        "body": "add_action( 'cocart_item_quantity_changed', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Action: cocart_item_quantity_changed"
+     }
+}

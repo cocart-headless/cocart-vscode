@@ -1,0 +1,57 @@
+{
+    "COCART_FILE": {
+        "prefix": "COCART_FILE",
+        "body": "COCART_FILE",
+        "description": "Constant: COCART_FILE"
+    },
+    "COCART_ABSPATH": {
+        "prefix": "COCART_ABSPATH",
+        "body": "COCART_ABSPATH",
+        "description": "Constant: COCART_ABSPATH"
+    },
+    "COCART_PLUGIN_BASENAME": {
+        "prefix": "COCART_PLUGIN_BASENAME",
+        "body": "COCART_PLUGIN_BASENAME",
+        "description": "Constant: COCART_PLUGIN_BASENAME"
+    },
+    "COCART_VERSION": {
+        "prefix": "COCART_VERSION",
+        "body": "COCART_VERSION",
+        "description": "Constant: COCART_VERSION"
+    },
+    "COCART_DB_VERSION": {
+        "prefix": "COCART_DB_VERSION",
+        "body": "COCART_DB_VERSION",
+        "description": "Constant: COCART_DB_VERSION"
+    },
+    "COCART_SLUG": {
+        "prefix": "COCART_SLUG",
+        "body": "COCART_SLUG",
+        "description": "Constant: COCART_SLUG"
+    },
+    "COCART_URL_PATH": {
+        "prefix": "COCART_URL_PATH",
+        "body": "COCART_URL_PATH",
+        "description": "Constant: COCART_URL_PATH"
+    },
+    "COCART_FILE_PATH": {
+        "prefix": "COCART_FILE_PATH",
+        "body": "COCART_FILE_PATH",
+        "description": "Constant: COCART_FILE_PATH"
+    },
+    "COCART_CART_CACHE_GROUP": {
+        "prefix": "COCART_CART_CACHE_GROUP",
+        "body": "COCART_CART_CACHE_GROUP",
+        "description": "Constant: COCART_CART_CACHE_GROUP"
+    },
+    "COCART_STORE_URL": {
+        "prefix": "COCART_STORE_URL",
+        "body": "COCART_STORE_URL",
+        "description": "Constant: COCART_STORE_URL"
+    },
+    "COCART_PLUGIN_URL": {
+        "prefix": "COCART_PLUGIN_URL",
+        "body": "COCART_PLUGIN_URL",
+        "description": "Constant: COCART_PLUGIN_URL"
+    }
+}

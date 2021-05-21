@@ -1,0 +1,1162 @@
+{
+    "cocart_get_cart_item": {
+        "prefix": "cocart_get_cart_item",
+        "body": "cocart_get_cart_item",
+        "description": "Filter: cocart_get_cart_item"
+    },
+    "af_cocart_get_cart_item": {
+        "prefix": "af_cocart_get_cart_item",
+        "body": "add_filter( 'cocart_get_cart_item', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_get_cart_item"
+    },
+    "cocart_before_get_cart": {
+        "prefix": "cocart_before_get_cart",
+        "body": "cocart_before_get_cart",
+        "description": "Filter: cocart_before_get_cart"
+    },
+    "af_cocart_before_get_cart": {
+        "prefix": "af_cocart_before_get_cart",
+        "body": "add_filter( 'cocart_before_get_cart', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_before_get_cart"
+    },
+    "cocart_empty_cart": {
+        "prefix": "cocart_empty_cart",
+        "body": "cocart_empty_cart",
+        "description": "Filter: cocart_empty_cart"
+    },
+    "af_cocart_empty_cart": {
+        "prefix": "af_cocart_empty_cart",
+        "body": "add_filter( 'cocart_empty_cart', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_empty_cart"
+    },
+    "cocart_cart_totals_taxes_total": {
+        "prefix": "cocart_cart_totals_taxes_total",
+        "body": "cocart_cart_totals_taxes_total",
+        "description": "Filter: cocart_cart_totals_taxes_total"
+    },
+    "af_cocart_cart_totals_taxes_total": {
+        "prefix": "af_cocart_cart_totals_taxes_total",
+        "body": "add_filter( 'cocart_cart_totals_taxes_total', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_totals_taxes_total"
+    },
+    "cocart_cart": {
+        "prefix": "cocart_cart",
+        "body": "cocart_cart",
+        "description": "Filter: cocart_cart"
+    },
+    "af_cocart_cart": {
+        "prefix": "af_cocart_cart",
+        "body": "add_filter( 'cocart_cart', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_cart"
+    },
+    "cocart_invalid_variation_data_message": {
+        "prefix": "cocart_invalid_variation_data_message",
+        "body": "cocart_invalid_variation_data_message",
+        "description": "Filter: cocart_invalid_variation_data_message"
+    },
+    "af_cocart_invalid_variation_data_message": {
+        "prefix": "af_cocart_invalid_variation_data_message",
+        "body": "add_filter( 'cocart_invalid_variation_data_message', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_invalid_variation_data_message"
+    },
+    "cocart_missing_variation_data_message": {
+        "prefix": "cocart_missing_variation_data_message",
+        "body": "cocart_missing_variation_data_message",
+        "description": "Filter: cocart_missing_variation_data_message"
+    },
+    "af_cocart_missing_variation_data_message": {
+        "prefix": "af_cocart_missing_variation_data_message",
+        "body": "add_filter( 'cocart_missing_variation_data_message', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_missing_variation_data_message"
+    },
+    "cocart_add_to_cart_validation": {
+        "prefix": "cocart_add_to_cart_validation",
+        "body": "cocart_add_to_cart_validation",
+        "description": "Filter: cocart_add_to_cart_validation"
+    },
+    "af_cocart_add_to_cart_validation": {
+        "prefix": "af_cocart_add_to_cart_validation",
+        "body": "add_filter( 'cocart_add_to_cart_validation', ${2:'${1:callback}'}${3}, 10, 8 );",
+        "description": "Filter snippet: cocart_add_to_cart_validation"
+    },
+    "cocart_product_failed_validation_message": {
+        "prefix": "cocart_product_failed_validation_message",
+        "body": "cocart_product_failed_validation_message",
+        "description": "Filter: cocart_product_failed_validation_message"
+    },
+    "af_cocart_product_failed_validation_message": {
+        "prefix": "af_cocart_product_failed_validation_message",
+        "body": "add_filter( 'cocart_product_failed_validation_message', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_product_failed_validation_message"
+    },
+    "cocart_add_to_cart_quantity": {
+        "prefix": "cocart_add_to_cart_quantity",
+        "body": "cocart_add_to_cart_quantity",
+        "description": "Filter: cocart_add_to_cart_quantity"
+    },
+    "af_cocart_add_to_cart_quantity": {
+        "prefix": "af_cocart_add_to_cart_quantity",
+        "body": "add_filter( 'cocart_add_to_cart_quantity', ${2:'${1:callback}'}${3}, 10, 5 );",
+        "description": "Filter snippet: cocart_add_to_cart_quantity"
+    },
+    "cocart_add_cart_item_data": {
+        "prefix": "cocart_add_cart_item_data",
+        "body": "cocart_add_cart_item_data",
+        "description": "Filter: cocart_add_cart_item_data"
+    },
+    "af_cocart_add_cart_item_data": {
+        "prefix": "af_cocart_add_cart_item_data",
+        "body": "add_filter( 'cocart_add_cart_item_data', ${2:'${1:callback}'}${3}, 10, 6 );",
+        "description": "Filter snippet: cocart_add_cart_item_data"
+    },
+    "cocart_variation_option_name": {
+        "prefix": "cocart_variation_option_name",
+        "body": "cocart_variation_option_name",
+        "description": "Filter: cocart_variation_option_name"
+    },
+    "af_cocart_variation_option_name": {
+        "prefix": "af_cocart_variation_option_name",
+        "body": "add_filter( 'cocart_variation_option_name', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_variation_option_name"
+    },
+    "cocart_coupon_discount_amount_html": {
+        "prefix": "cocart_coupon_discount_amount_html",
+        "body": "cocart_coupon_discount_amount_html",
+        "description": "Filter: cocart_coupon_discount_amount_html"
+    },
+    "af_cocart_coupon_discount_amount_html": {
+        "prefix": "af_cocart_coupon_discount_amount_html",
+        "body": "add_filter( 'cocart_coupon_discount_amount_html', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_coupon_discount_amount_html"
+    },
+    "cocart_cart_totals_fee_html": {
+        "prefix": "cocart_cart_totals_fee_html",
+        "body": "cocart_cart_totals_fee_html",
+        "description": "Filter: cocart_cart_totals_fee_html"
+    },
+    "af_cocart_cart_totals_fee_html": {
+        "prefix": "af_cocart_cart_totals_fee_html",
+        "body": "add_filter( 'cocart_cart_totals_fee_html', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_cart_totals_fee_html"
+    },
+    "cocart_product_cannot_be_added_message": {
+        "prefix": "cocart_product_cannot_be_added_message",
+        "body": "cocart_product_cannot_be_added_message",
+        "description": "Filter: cocart_product_cannot_be_added_message"
+    },
+    "af_cocart_product_cannot_be_added_message": {
+        "prefix": "af_cocart_product_cannot_be_added_message",
+        "body": "add_filter( 'cocart_product_cannot_be_added_message', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_product_cannot_be_added_message"
+    },
+    "cocart_add_to_cart_sold_individually_quantity": {
+        "prefix": "cocart_add_to_cart_sold_individually_quantity",
+        "body": "cocart_add_to_cart_sold_individually_quantity",
+        "description": "Filter: cocart_add_to_cart_sold_individually_quantity"
+    },
+    "af_cocart_add_to_cart_sold_individually_quantity": {
+        "prefix": "af_cocart_add_to_cart_sold_individually_quantity",
+        "body": "add_filter( 'cocart_add_to_cart_sold_individually_quantity', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_add_to_cart_sold_individually_quantity"
+    },
+    "cocart_add_to_cart_sold_individually_found_in_cart": {
+        "prefix": "cocart_add_to_cart_sold_individually_found_in_cart",
+        "body": "cocart_add_to_cart_sold_individually_found_in_cart",
+        "description": "Filter: cocart_add_to_cart_sold_individually_found_in_cart"
+    },
+    "af_cocart_add_to_cart_sold_individually_found_in_cart": {
+        "prefix": "af_cocart_add_to_cart_sold_individually_found_in_cart",
+        "body": "add_filter( 'cocart_add_to_cart_sold_individually_found_in_cart', ${2:'${1:callback}'}${3}, 10, 5 );",
+        "description": "Filter snippet: cocart_add_to_cart_sold_individually_found_in_cart"
+    },
+    "cocart_product_can_not_add_another_message": {
+        "prefix": "cocart_product_can_not_add_another_message",
+        "body": "cocart_product_can_not_add_another_message",
+        "description": "Filter: cocart_product_can_not_add_another_message"
+    },
+    "af_cocart_product_can_not_add_another_message": {
+        "prefix": "af_cocart_product_can_not_add_another_message",
+        "body": "add_filter( 'cocart_product_can_not_add_another_message', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_product_can_not_add_another_message"
+    },
+    "cocart_product_is_out_of_stock_message": {
+        "prefix": "cocart_product_is_out_of_stock_message",
+        "body": "cocart_product_is_out_of_stock_message",
+        "description": "Filter: cocart_product_is_out_of_stock_message"
+    },
+    "af_cocart_product_is_out_of_stock_message": {
+        "prefix": "af_cocart_product_is_out_of_stock_message",
+        "body": "add_filter( 'cocart_product_is_out_of_stock_message', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_product_is_out_of_stock_message"
+    },
+    "cocart_filter_request_data": {
+        "prefix": "cocart_filter_request_data",
+        "body": "cocart_filter_request_data",
+        "description": "Filter: cocart_filter_request_data"
+    },
+    "af_cocart_filter_request_data": {
+        "prefix": "af_cocart_filter_request_data",
+        "body": "add_filter( 'cocart_filter_request_data', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_filter_request_data"
+    },
+    "cocart_cart_item_name": {
+        "prefix": "cocart_cart_item_name",
+        "body": "cocart_cart_item_name",
+        "description": "Filter: cocart_cart_item_name"
+    },
+    "af_cocart_cart_item_name": {
+        "prefix": "af_cocart_cart_item_name",
+        "body": "add_filter( 'cocart_cart_item_name', ${2:'${1:callback}'}${3}, 10, 4 );",
+        "description": "Filter snippet: cocart_cart_item_name"
+    },
+    "cocart_cart_item_title": {
+        "prefix": "cocart_cart_item_title",
+        "body": "cocart_cart_item_title",
+        "description": "Filter: cocart_cart_item_title"
+    },
+    "af_cocart_cart_item_title": {
+        "prefix": "af_cocart_cart_item_title",
+        "body": "add_filter( 'cocart_cart_item_title', ${2:'${1:callback}'}${3}, 10, 4 );",
+        "description": "Filter snippet: cocart_cart_item_title"
+    },
+    "cocart_cart_item_price": {
+        "prefix": "cocart_cart_item_price",
+        "body": "cocart_cart_item_price",
+        "description": "Filter: cocart_cart_item_price"
+    },
+    "af_cocart_cart_item_price": {
+        "prefix": "af_cocart_cart_item_price",
+        "body": "add_filter( 'cocart_cart_item_price', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_cart_item_price"
+    },
+    "cocart_cart_item_quantity": {
+        "prefix": "cocart_cart_item_quantity",
+        "body": "cocart_cart_item_quantity",
+        "description": "Filter: cocart_cart_item_quantity"
+    },
+    "af_cocart_cart_item_quantity": {
+        "prefix": "af_cocart_cart_item_quantity",
+        "body": "add_filter( 'cocart_cart_item_quantity', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_cart_item_quantity"
+    },
+    "cocart_cart_item_subtotal": {
+        "prefix": "cocart_cart_item_subtotal",
+        "body": "cocart_cart_item_subtotal",
+        "description": "Filter: cocart_cart_item_subtotal"
+    },
+    "af_cocart_cart_item_subtotal": {
+        "prefix": "af_cocart_cart_item_subtotal",
+        "body": "add_filter( 'cocart_cart_item_subtotal', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_cart_item_subtotal"
+    },
+    "cocart_item_thumbnail": {
+        "prefix": "cocart_item_thumbnail",
+        "body": "cocart_item_thumbnail",
+        "description": "Filter: cocart_item_thumbnail"
+    },
+    "af_cocart_item_thumbnail": {
+        "prefix": "af_cocart_item_thumbnail",
+        "body": "add_filter( 'cocart_item_thumbnail', ${2:'${1:callback}'}${3}, 10, 4 );",
+        "description": "Filter snippet: cocart_item_thumbnail"
+    },
+    "cocart_item_thumbnail_size": {
+        "prefix": "cocart_item_thumbnail_size",
+        "body": "cocart_item_thumbnail_size",
+        "description": "Filter: cocart_item_thumbnail_size"
+    },
+    "af_cocart_item_thumbnail_size": {
+        "prefix": "af_cocart_item_thumbnail_size",
+        "body": "add_filter( 'cocart_item_thumbnail_size', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_item_thumbnail_size"
+    },
+    "cocart_item_thumbnail_src": {
+        "prefix": "cocart_item_thumbnail_src",
+        "body": "cocart_item_thumbnail_src",
+        "description": "Filter: cocart_item_thumbnail_src"
+    },
+    "af_cocart_item_thumbnail_src": {
+        "prefix": "af_cocart_item_thumbnail_src",
+        "body": "add_filter( 'cocart_item_thumbnail_src', ${2:'${1:callback}'}${3}, 10, 4 );",
+        "description": "Filter snippet: cocart_item_thumbnail_src"
+    },
+    "cocart_item_product": {
+        "prefix": "cocart_item_product",
+        "body": "cocart_item_product",
+        "description": "Filter: cocart_item_product"
+    },
+    "af_cocart_item_product": {
+        "prefix": "af_cocart_item_product",
+        "body": "add_filter( 'cocart_item_product', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_item_product"
+    },
+    "cocart_cart_item_removed_message": {
+        "prefix": "cocart_cart_item_removed_message",
+        "body": "cocart_cart_item_removed_message",
+        "description": "Filter: cocart_cart_item_removed_message"
+    },
+    "af_cocart_cart_item_removed_message": {
+        "prefix": "af_cocart_cart_item_removed_message",
+        "body": "add_filter( 'cocart_cart_item_removed_message', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_cart_item_removed_message"
+    },
+    "cocart_cart_item_backorder_notification": {
+        "prefix": "cocart_cart_item_backorder_notification",
+        "body": "cocart_cart_item_backorder_notification",
+        "description": "Filter: cocart_cart_item_backorder_notification"
+    },
+    "af_cocart_cart_item_backorder_notification": {
+        "prefix": "af_cocart_cart_item_backorder_notification",
+        "body": "add_filter( 'cocart_cart_item_backorder_notification', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_cart_item_backorder_notification"
+    },
+    "cocart_cart_item_data": {
+        "prefix": "cocart_cart_item_data",
+        "body": "cocart_cart_item_data",
+        "description": "Filter: cocart_cart_item_data"
+    },
+    "af_cocart_cart_item_data": {
+        "prefix": "af_cocart_cart_item_data",
+        "body": "add_filter( 'cocart_cart_item_data', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_cart_item_data"
+    },
+    "cocart_cart_items": {
+        "prefix": "cocart_cart_items",
+        "body": "cocart_cart_items",
+        "description": "Filter: cocart_cart_items"
+    },
+    "af_cocart_cart_items": {
+        "prefix": "af_cocart_cart_items",
+        "body": "add_filter( 'cocart_cart_items', ${2:'${1:callback}'}${3}, 10, 4 );",
+        "description": "Filter snippet: cocart_cart_items"
+    },
+    "cocart_cross_sells_orderby": {
+        "prefix": "cocart_cross_sells_orderby",
+        "body": "cocart_cross_sells_orderby",
+        "description": "Filter: cocart_cross_sells_orderby"
+    },
+    "af_cocart_cross_sells_orderby": {
+        "prefix": "af_cocart_cross_sells_orderby",
+        "body": "add_filter( 'cocart_cross_sells_orderby', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cross_sells_orderby"
+    },
+    "cocart_cross_sells_order": {
+        "prefix": "cocart_cross_sells_order",
+        "body": "cocart_cross_sells_order",
+        "description": "Filter: cocart_cross_sells_order"
+    },
+    "af_cocart_cross_sells_order": {
+        "prefix": "af_cocart_cross_sells_order",
+        "body": "add_filter( 'cocart_cross_sells_order', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cross_sells_order"
+    },
+    "cocart_cross_sells_total": {
+        "prefix": "cocart_cross_sells_total",
+        "body": "cocart_cross_sells_total",
+        "description": "Filter: cocart_cross_sells_total"
+    },
+    "af_cocart_cross_sells_total": {
+        "prefix": "af_cocart_cross_sells_total",
+        "body": "add_filter( 'cocart_cross_sells_total', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cross_sells_total"
+    },
+    "cocart_cross_sell_item_thumbnail": {
+        "prefix": "cocart_cross_sell_item_thumbnail",
+        "body": "cocart_cross_sell_item_thumbnail",
+        "description": "Filter: cocart_cross_sell_item_thumbnail"
+    },
+    "af_cocart_cross_sell_item_thumbnail": {
+        "prefix": "af_cocart_cross_sell_item_thumbnail",
+        "body": "add_filter( 'cocart_cross_sell_item_thumbnail', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cross_sell_item_thumbnail"
+    },
+    "cocart_cross_sell_item_thumbnail_size": {
+        "prefix": "cocart_cross_sell_item_thumbnail_size",
+        "body": "cocart_cross_sell_item_thumbnail_size",
+        "description": "Filter: cocart_cross_sell_item_thumbnail_size"
+    },
+    "af_cocart_cross_sell_item_thumbnail_size": {
+        "prefix": "af_cocart_cross_sell_item_thumbnail_size",
+        "body": "add_filter( 'cocart_cross_sell_item_thumbnail_size', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cross_sell_item_thumbnail_size"
+    },
+    "cocart_item_thumbnail_src": {
+        "prefix": "cocart_item_thumbnail_src",
+        "body": "cocart_item_thumbnail_src",
+        "description": "Filter: cocart_item_thumbnail_src"
+    },
+    "af_cocart_item_thumbnail_src": {
+        "prefix": "af_cocart_item_thumbnail_src",
+        "body": "add_filter( 'cocart_item_thumbnail_src', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_item_thumbnail_src"
+    },
+    "cocart_cross_sells": {
+        "prefix": "cocart_cross_sells",
+        "body": "cocart_cross_sells",
+        "description": "Filter: cocart_cross_sells"
+    },
+    "af_cocart_cross_sells": {
+        "prefix": "af_cocart_cross_sells",
+        "body": "add_filter( 'cocart_cross_sells', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cross_sells"
+    },
+    "cocart_shipping_package_details_array": {
+        "prefix": "cocart_shipping_package_details_array",
+        "body": "cocart_shipping_package_details_array",
+        "description": "Filter: cocart_shipping_package_details_array"
+    },
+    "af_cocart_shipping_package_details_array": {
+        "prefix": "af_cocart_shipping_package_details_array",
+        "body": "add_filter( 'cocart_shipping_package_details_array', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_shipping_package_details_array"
+    },
+    "cocart_shipping_package_name": {
+        "prefix": "cocart_shipping_package_name",
+        "body": "cocart_shipping_package_name",
+        "description": "Filter: cocart_shipping_package_name"
+    },
+    "af_cocart_shipping_package_name": {
+        "prefix": "af_cocart_shipping_package_name",
+        "body": "add_filter( 'cocart_shipping_package_name', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_shipping_package_name"
+    },
+    "cocart_notice_types": {
+        "prefix": "cocart_notice_types",
+        "body": "cocart_notice_types",
+        "description": "Filter: cocart_notice_types"
+    },
+    "af_cocart_notice_types": {
+        "prefix": "af_cocart_notice_types",
+        "body": "add_filter( 'cocart_notice_types', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_notice_types"
+    },
+    "cocart_add_cart_item": {
+        "prefix": "cocart_add_cart_item",
+        "body": "cocart_add_cart_item",
+        "description": "Filter: cocart_add_cart_item"
+    },
+    "af_cocart_add_cart_item": {
+        "prefix": "af_cocart_add_cart_item",
+        "body": "add_filter( 'cocart_add_cart_item', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_add_cart_item"
+    },
+    "cocart_cart_contents_changed": {
+        "prefix": "cocart_cart_contents_changed",
+        "body": "cocart_cart_contents_changed",
+        "description": "Filter: cocart_cart_contents_changed"
+    },
+    "af_cocart_cart_contents_changed": {
+        "prefix": "af_cocart_cart_contents_changed",
+        "body": "add_filter( 'cocart_cart_contents_changed', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_cart_contents_changed"
+    },
+    "cocart_get_customer_<key>": {
+        "prefix": "cocart_get_customer_<key>",
+        "body": "cocart_get_customer_<key>",
+        "description": "Filter: cocart_get_customer_<key>"
+    },
+    "af_cocart_get_customer_<key>": {
+        "prefix": "af_cocart_get_customer_<key>",
+        "body": "add_filter( 'cocart_get_customer_<key>', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_get_customer_<key>"
+    },
+    "cocart_product_cannot_be_purchased_message": {
+        "prefix": "cocart_product_cannot_be_purchased_message",
+        "body": "cocart_product_cannot_be_purchased_message",
+        "description": "Filter: cocart_product_cannot_be_purchased_message"
+    },
+    "af_cocart_product_cannot_be_purchased_message": {
+        "prefix": "af_cocart_cart_contents_changed",
+        "body": "add_filter( 'cocart_product_cannot_be_purchased_message', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_product_cannot_be_purchased_message"
+    },
+    "cocart_cart_schema": {
+        "prefix": "cocart_cart_schema",
+        "body": "cocart_cart_schema",
+        "description": "Filter: cocart_cart_schema"
+    },
+    "af_cocart_cart_schema": {
+        "prefix": "af_cocart_cart_schema",
+        "body": "add_filter( 'cocart_cart_schema', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_schema"
+    },
+    "cocart_add_to_cart_handler": {
+        "prefix": "cocart_add_to_cart_handler",
+        "body": "cocart_add_to_cart_handler",
+        "description": "Filter: cocart_add_to_cart_handler"
+    },
+    "af_cocart_add_to_cart_handler": {
+        "prefix": "af_cocart_add_to_cart_handler",
+        "body": "add_filter( 'cocart_add_to_cart_handler', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_add_to_cart_handler"
+    },
+    "cocart_add_to_cart_handler_<product_type>": {
+        "prefix": "cocart_add_to_cart_handler_<product_type>",
+        "body": "cocart_add_to_cart_handler_<product_type>",
+        "description": "Filter: cocart_add_to_cart_handler_<product_type>"
+    },
+    "af_cocart_add_to_cart_handler_<product_type>": {
+        "prefix": "af_cocart_add_to_cart_handler_<product_type>",
+        "body": "add_filter( 'cocart_add_to_cart_handler_<product_type>', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_add_to_cart_handler_<product_type>"
+    },
+    "cocart_skip_woocommerce_item_validation": {
+        "prefix": "cocart_skip_woocommerce_item_validation",
+        "body": "cocart_skip_woocommerce_item_validation",
+        "description": "Filter: cocart_skip_woocommerce_item_validation"
+    },
+    "af_cocart_skip_woocommerce_item_validation": {
+        "prefix": "af_cocart_skip_woocommerce_item_validation",
+        "body": "add_filter( 'cocart_skip_woocommerce_item_validation', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_skip_woocommerce_item_validation"
+    },
+    "cocart_product_cannot_add_to_cart_message": {
+        "prefix": "cocart_product_cannot_add_to_cart_message",
+        "body": "cocart_product_cannot_add_to_cart_message",
+        "description": "Filter: cocart_product_cannot_add_to_cart_message"
+    },
+    "af_cocart_product_cannot_add_to_cart_message": {
+        "prefix": "af_cocart_product_cannot_add_to_cart_message",
+        "body": "add_filter( 'cocart_product_cannot_add_to_cart_message', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_product_cannot_add_to_cart_message"
+    },
+    "cocart_add_item_schema": {
+        "prefix": "cocart_add_item_schema",
+        "body": "cocart_add_item_schema",
+        "description": "Filter: cocart_add_item_schema"
+    },
+    "af_cocart_add_item_schema": {
+        "prefix": "af_cocart_add_item_schema",
+        "body": "add_filter( 'cocart_add_item_schema', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_add_item_schema"
+    },
+    "cocart_add_items_to_cart_handler": {
+        "prefix": "cocart_add_items_to_cart_handler",
+        "body": "cocart_add_items_to_cart_handler",
+        "description": "Filter: cocart_add_items_to_cart_handler"
+    },
+    "af_cocart_add_items_to_cart_handler": {
+        "prefix": "af_cocart_add_items_to_cart_handler",
+        "body": "add_filter( 'cocart_add_items_to_cart_handler', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_add_items_to_cart_handler"
+    },
+    "cocart_add_items_to_cart_handler_<product_type>": {
+        "prefix": "cocart_add_items_to_cart_handler_<product_type>",
+        "body": "cocart_add_items_to_cart_handler_<product_type>",
+        "description": "Filter: cocart_add_items_to_cart_handler_<product_type>"
+    },
+    "af_cocart_add_items_to_cart_handler_<product_type>": {
+        "prefix": "af_cocart_add_items_to_cart_handler_<product_type>",
+        "body": "add_filter( 'cocart_add_items_to_cart_handler_<product_type>', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_add_items_to_cart_handler_<product_type>"
+    },
+    "cocart_add_items_schema": {
+        "prefix": "cocart_add_items_schema",
+        "body": "cocart_add_items_schema",
+        "description": "Filter: cocart_add_items_schema"
+    },
+    "af_cocart_add_items_schema": {
+        "prefix": "af_cocart_add_items_schema",
+        "body": "add_filter( 'cocart_add_items_schema', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_add_items_schema"
+    },
+    "cocart_cart_cleared_message": {
+        "prefix": "cocart_cart_cleared_message",
+        "body": "cocart_cart_cleared_message",
+        "description": "Filter: cocart_cart_cleared_message"
+    },
+    "af_cocart_cart_cleared_message": {
+        "prefix": "af_cocart_cart_cleared_message",
+        "body": "add_filter( 'cocart_cart_cleared_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_cleared_message"
+    },
+    "cocart_clear_cart_failed_message": {
+        "prefix": "cocart_clear_cart_failed_message",
+        "body": "cocart_clear_cart_failed_message",
+        "description": "Filter: cocart_clear_cart_failed_message"
+    },
+    "af_cocart_clear_cart_failed_message": {
+        "prefix": "af_cocart_clear_cart_failed_message",
+        "body": "add_filter( 'cocart_clear_cart_failed_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_clear_cart_failed_message"
+    },
+    "cocart_no_items_in_cart_message": {
+        "prefix": "cocart_no_items_in_cart_message",
+        "body": "cocart_no_items_in_cart_message",
+        "description": "Filter: cocart_no_items_in_cart_message"
+    },
+    "af_cocart_no_items_in_cart_message": {
+        "prefix": "af_cocart_no_items_in_cart_message",
+        "body": "add_filter( 'cocart_no_items_in_cart_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_no_items_in_cart_message"
+    },
+    "cocart_cart_item_key_required_message": {
+        "prefix": "cocart_cart_item_key_required_message",
+        "body": "cocart_cart_item_key_required_message",
+        "description": "Filter: cocart_cart_item_key_required_message"
+    },
+    "af_cocart_cart_item_key_required_message": {
+        "prefix": "af_cocart_cart_item_key_required_message",
+        "body": "add_filter( 'cocart_cart_item_key_required_message', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_cart_item_key_required_message"
+    },
+    "cocart_no_items_message": {
+        "prefix": "cocart_no_items_message",
+        "body": "cocart_no_items_message",
+        "description": "Filter: cocart_no_items_message"
+    },
+    "af_cocart_no_items_message": {
+        "prefix": "af_cocart_no_items_message",
+        "body": "add_filter( 'cocart_no_items_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_no_items_message"
+    },
+    "cocart_cart_item_removed_title": {
+        "prefix": "cocart_cart_item_removed_title",
+        "body": "cocart_cart_item_removed_title",
+        "description": "Filter: cocart_cart_item_removed_title"
+    },
+    "af_cocart_cart_item_removed_title": {
+        "prefix": "af_cocart_cart_item_removed_title",
+        "body": "add_filter( 'cocart_cart_item_removed_title', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_item_removed_title"
+    },
+    "cocart_cart_item_already_removed_title": {
+        "prefix": "cocart_cart_item_already_removed_title",
+        "body": "cocart_cart_item_already_removed_title",
+        "description": "Filter: cocart_cart_item_already_removed_title"
+    },
+    "af_cocart_cart_item_already_removed_title": {
+        "prefix": "af_cocart_cart_item_already_removed_title",
+        "body": "add_filter( 'cocart_cart_item_already_removed_title', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_item_already_removed_title"
+    },
+    "cocart_item_removed_message": {
+        "prefix": "cocart_item_removed_message",
+        "body": "cocart_item_removed_message",
+        "description": "Filter: cocart_item_removed_message"
+    },
+    "af_cocart_item_removed_message": {
+        "prefix": "af_cocart_item_removed_message",
+        "body": "add_filter( 'cocart_item_removed_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_item_removed_message"
+    },
+    "cocart_can_not_remove_item_message": {
+        "prefix": "cocart_can_not_remove_item_message",
+        "body": "cocart_can_not_remove_item_message",
+        "description": "Filter: cocart_can_not_remove_item_message"
+    },
+    "af_cocart_can_not_remove_item_message": {
+        "prefix": "af_cocart_can_not_remove_item_message",
+        "body": "add_filter( 'cocart_can_not_remove_item_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_can_not_remove_item_message"
+    },
+    "cocart_cart_item_already_restored_title": {
+        "prefix": "cocart_cart_item_already_restored_title",
+        "body": "cocart_cart_item_already_restored_title",
+        "description": "Filter: cocart_cart_item_already_restored_title"
+    },
+    "af_cocart_cart_item_already_restored_title": {
+        "prefix": "af_cocart_cart_item_already_restored_title",
+        "body": "add_filter( 'cocart_cart_item_already_restored_title', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_item_already_restored_title"
+    },
+    "cocart_item_restored_message": {
+        "prefix": "cocart_item_restored_message",
+        "body": "cocart_item_restored_message",
+        "description": "Filter: cocart_item_restored_message"
+    },
+    "af_cocart_item_restored_message": {
+        "prefix": "af_cocart_item_restored_message",
+        "body": "add_filter( 'cocart_item_restored_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_item_restored_message"
+    },
+    "cocart_can_not_restore_item_message": {
+        "prefix": "cocart_can_not_restore_item_message",
+        "body": "cocart_can_not_restore_item_message",
+        "description": "Filter: cocart_can_not_restore_item_message"
+    },
+    "af_cocart_can_not_restore_item_message": {
+        "prefix": "af_cocart_can_not_restore_item_message",
+        "body": "add_filter( 'cocart_can_not_restore_item_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_can_not_restore_item_message"
+    },
+    "cocart_store_index": {
+        "prefix": "cocart_store_index",
+        "body": "cocart_store_index",
+        "description": "Filter: cocart_store_index"
+    },
+    "af_cocart_store_index": {
+        "prefix": "af_cocart_store_index",
+        "body": "add_filter( 'cocart_store_index', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_store_index"
+    },
+    "cocart_store_address": {
+        "prefix": "cocart_store_address",
+        "body": "cocart_store_address",
+        "description": "Filter: cocart_store_address"
+    },
+    "af_cocart_store_address": {
+        "prefix": "af_cocart_store_address",
+        "body": "add_filter( 'cocart_store_address', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_store_address"
+    },
+    "cocart_routes": {
+        "prefix": "cocart_routes",
+        "body": "cocart_routes",
+        "description": "Filter: cocart_routes"
+    },
+    "af_cocart_routes": {
+        "prefix": "af_cocart_routes",
+        "body": "add_filter( 'cocart_routes', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_routes"
+    },
+    "cocart_item_not_in_cart_message": {
+        "prefix": "cocart_item_not_in_cart_message",
+        "body": "cocart_item_not_in_cart_message",
+        "description": "Filter: cocart_item_not_in_cart_message"
+    },
+    "af_cocart_item_not_in_cart_message": {
+        "prefix": "af_cocart_item_not_in_cart_message",
+        "body": "add_filter( 'cocart_item_not_in_cart_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_item_not_in_cart_message"
+    },
+    "cocart_is_rest_api_request": {
+        "prefix": "cocart_is_rest_api_request",
+        "body": "cocart_is_rest_api_request",
+        "description": "Filter: cocart_is_rest_api_request"
+    },
+    "af_cocart_is_rest_api_request": {
+        "prefix": "af_cocart_is_rest_api_request",
+        "body": "add_filter( 'cocart_is_rest_api_request', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_is_rest_api_request"
+    },
+    "cocart_authenticate": {
+        "prefix": "cocart_authenticate",
+        "body": "cocart_authenticate",
+        "description": "Filter: cocart_authenticate"
+    },
+    "af_cocart_authenticate": {
+        "prefix": "af_cocart_authenticate",
+        "body": "add_filter( 'cocart_authenticate', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_authenticate"
+    },
+    "cocart_disable_all_cors": {
+        "prefix": "cocart_disable_all_cors",
+        "body": "cocart_disable_all_cors",
+        "description": "Filter: cocart_disable_all_cors"
+    },
+    "af_cocart_disable_all_cors": {
+        "prefix": "af_cocart_disable_all_cors",
+        "body": "add_filter( 'cocart_disable_all_cors', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_disable_all_cors"
+    },
+    "cocart_allow_origin": {
+        "prefix": "cocart_allow_origin",
+        "body": "cocart_allow_origin",
+        "description": "Filter: cocart_allow_origin"
+    },
+    "af_cocart_allow_origin": {
+        "prefix": "af_cocart_allow_origin",
+        "body": "add_filter( 'cocart_allow_origin', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_allow_origin"
+    },
+    "cocart_api_permission_check_<method>": {
+        "prefix": "cocart_api_permission_check_<method>",
+        "body": "cocart_api_permission_check_<method>",
+        "description": "Filter: cocart_api_permission_check_<method>"
+    },
+    "af_cocart_api_permission_check_<method>": {
+        "prefix": "af_cocart_api_permission_check_<method>",
+        "body": "add_filter( 'cocart_api_permission_check_<method>', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_api_permission_check_<method>"
+    },
+    "cocart_cart_item_required_stock_is_not_enough": {
+        "prefix": "cocart_cart_item_required_stock_is_not_enough",
+        "body": "cocart_cart_item_required_stock_is_not_enough",
+        "description": "Filter: cocart_cart_item_required_stock_is_not_enough"
+    },
+    "af_cocart_cart_item_required_stock_is_not_enough": {
+        "prefix": "af_cocart_cart_item_required_stock_is_not_enough",
+        "body": "add_filter( 'cocart_cart_item_required_stock_is_not_enough', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_cart_item_required_stock_is_not_enough"
+    },
+    "cocart_admin_screens": {
+        "prefix": "cocart_admin_screens",
+        "body": "cocart_admin_screens",
+        "description": "Filter: cocart_admin_screens"
+    },
+    "af_cocart_admin_screens": {
+        "prefix": "af_cocart_admin_screens",
+        "body": "add_filter( 'cocart_admin_screens', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_admin_screens"
+    },
+    "cocart_install_capability": {
+        "prefix": "cocart_install_capability",
+        "body": "cocart_install_capability",
+        "description": "Filter: cocart_install_capability"
+    },
+    "af_cocart_install_capability": {
+        "prefix": "af_cocart_install_capability",
+        "body": "add_filter( 'cocart_install_capability', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_install_capability"
+    },
+    "cocart_show_plugin_search": {
+        "prefix": "cocart_show_plugin_search",
+        "body": "cocart_show_plugin_search",
+        "description": "Filter: cocart_show_plugin_search"
+    },
+    "af_cocart_show_plugin_search": {
+        "prefix": "af_cocart_show_plugin_search",
+        "body": "add_filter( 'cocart_show_plugin_search', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_show_plugin_search"
+    },
+    "cocart_enable_auto_update_db": {
+        "prefix": "cocart_enable_auto_update_db",
+        "body": "cocart_enable_auto_update_db",
+        "description": "Filter: cocart_enable_auto_update_db"
+    },
+    "af_cocart_enable_auto_update_db": {
+        "prefix": "af_cocart_enable_auto_update_db",
+        "body": "add_filter( 'cocart_enable_auto_update_db', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_enable_auto_update_db"
+    },
+    "cocart_install_skip_create_files": {
+        "prefix": "cocart_install_skip_create_files",
+        "body": "cocart_install_skip_create_files",
+        "description": "Filter: cocart_install_skip_create_files"
+    },
+    "af_cocart_install_skip_create_files": {
+        "prefix": "af_cocart_install_skip_create_files",
+        "body": "add_filter( 'cocart_install_skip_create_files', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_install_skip_create_files"
+    },
+    "cocart_logging": {
+        "prefix": "cocart_logging",
+        "body": "cocart_logging",
+        "description": "Filter: cocart_logging"
+    },
+    "af_cocart_logging": {
+        "prefix": "af_cocart_logging",
+        "body": "add_filter( 'cocart_logging', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_logging"
+    },
+    "cocart_log_entry_name": {
+        "prefix": "cocart_log_entry_name",
+        "body": "cocart_log_entry_name",
+        "description": "Filter: cocart_log_entry_name"
+    },
+    "af_cocart_log_entry_name": {
+        "prefix": "af_cocart_log_entry_name",
+        "body": "add_filter( 'cocart_log_entry_name', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_log_entry_name"
+    },
+    "cocart_log_entry_version": {
+        "prefix": "cocart_log_entry_version",
+        "body": "cocart_log_entry_version",
+        "description": "Filter: cocart_log_entry_version"
+    },
+    "af_cocart_log_entry_version": {
+        "prefix": "af_cocart_log_entry_version",
+        "body": "add_filter( 'cocart_log_entry_version', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_log_entry_version"
+    },
+    "cocart_log_entry_source": {
+        "prefix": "cocart_log_entry_source",
+        "body": "cocart_log_entry_source",
+        "description": "Filter: cocart_log_entry_source"
+    },
+    "af_cocart_log_entry_source": {
+        "prefix": "af_cocart_log_entry_source",
+        "body": "add_filter( 'cocart_log_entry_source', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_log_entry_source"
+    },
+    "cocart_cannot_add_product_type_to_cart_message": {
+        "prefix": "cocart_cannot_add_product_type_to_cart_message",
+        "body": "cocart_cannot_add_product_type_to_cart_message",
+        "description": "Filter: cocart_cannot_add_product_type_to_cart_message"
+    },
+    "af_cocart_cannot_add_product_type_to_cart_message": {
+        "prefix": "af_cocart_cannot_add_product_type_to_cart_message",
+        "body": "add_filter( 'cocart_cannot_add_product_type_to_cart_message', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_cannot_add_product_type_to_cart_message"
+    },
+    "cocart_return_default_response": {
+        "prefix": "cocart_return_default_response",
+        "body": "cocart_return_default_response",
+        "description": "Filter: cocart_return_default_response"
+    },
+    "af_cocart_return_default_response": {
+        "prefix": "af_cocart_return_default_response",
+        "body": "add_filter( 'cocart_return_default_response', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_return_default_response"
+    },
+    "cocart_<route>_response": {
+        "prefix": "cocart_<route>_response",
+        "body": "cocart_<route>_response",
+        "description": "Filter: cocart_<route>_response"
+    },
+    "af_cocart_<route>_response": {
+        "prefix": "af_cocart_<route>_response",
+        "body": "add_filter( 'cocart_<route>_response', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_<route>_response"
+    },
+    "cocart_rest_api_get_rest_namespaces": {
+        "prefix": "cocart_rest_api_get_rest_namespaces",
+        "body": "cocart_rest_api_get_rest_namespaces",
+        "description": "Filter: cocart_rest_api_get_rest_namespaces"
+    },
+    "af_cocart_rest_api_get_rest_namespaces": {
+        "prefix": "af_cocart_return_default_response",
+        "body": "add_filter( 'cocart_rest_api_get_rest_namespaces', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_rest_api_get_rest_namespaces"
+    },
+    "cocart_cookie": {
+        "prefix": "cocart_cookie",
+        "body": "cocart_cookie",
+        "description": "Filter: cocart_cookie"
+    },
+    "af_cocart_cookie": {
+        "prefix": "af_cocart_cookie",
+        "body": "add_filter( 'cocart_cookie', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cookie"
+    },
+    "cocart_override_cookie_check": {
+        "prefix": "cocart_override_cookie_check",
+        "body": "cocart_override_cookie_check",
+        "description": "Filter: cocart_override_cookie_check"
+    },
+    "af_cocart_override_cookie_check": {
+        "prefix": "af_cocart_override_cookie_check",
+        "body": "add_filter( 'cocart_override_cookie_check', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_override_cookie_check"
+    },
+    "cocart_cookie_supported": {
+        "prefix": "cocart_cookie_supported",
+        "body": "cocart_cookie_supported",
+        "description": "Filter: cocart_cookie_supported"
+    },
+    "af_cocart_cookie_supported": {
+        "prefix": "af_cocart_cookie_supported",
+        "body": "add_filter( 'cocart_cookie_supported', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cookie_supported"
+    },
+    "cocart_cart_use_secure_cookie": {
+        "prefix": "cocart_cart_use_secure_cookie",
+        "body": "cocart_cart_use_secure_cookie",
+        "description": "Filter: cocart_cart_use_secure_cookie"
+    },
+    "af_cocart_cart_use_secure_cookie": {
+        "prefix": "af_cocart_cart_use_secure_cookie",
+        "body": "add_filter( 'cocart_cart_use_secure_cookie', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_use_secure_cookie"
+    },
+    "cocart_set_cookie_options": {
+        "prefix": "cocart_set_cookie_options",
+        "body": "cocart_set_cookie_options",
+        "description": "Filter: cocart_set_cookie_options"
+    },
+    "af_cocart_set_cookie_options": {
+        "prefix": "af_cocart_set_cookie_options",
+        "body": "add_filter( 'cocart_set_cookie_options', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Filter snippet: cocart_set_cookie_options"
+    },
+    "cocart_cookie_httponly": {
+        "prefix": "cocart_cookie_httponly",
+        "body": "cocart_cookie_httponly",
+        "description": "Filter: cocart_cookie_httponly"
+    },
+    "af_cocart_cookie_httponly": {
+        "prefix": "af_cocart_cookie_httponly",
+        "body": "add_filter( 'cocart_cookie_httponly', ${2:'${1:callback}'}${3}, 10, 5 );",
+        "description": "Filter snippet: cocart_cookie_httponly"
+    },
+    "cocart_cookie_samesite": {
+        "prefix": "cocart_cookie_samesite",
+        "body": "cocart_cookie_samesite",
+        "description": "Filter: cocart_cookie_samesite"
+    },
+    "af_cocart_cookie_samesite": {
+        "prefix": "af_cocart_cookie_samesite",
+        "body": "add_filter( 'cocart_cookie_samesite', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cookie_samesite"
+    },
+    "cocart_cart_expiring": {
+        "prefix": "cocart_cart_expiring",
+        "body": "cocart_cart_expiring",
+        "description": "Filter: cocart_cart_expiring"
+    },
+    "af_cocart_cart_expiring": {
+        "prefix": "af_cocart_cart_expiring",
+        "body": "add_filter( 'cocart_cart_expiring', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_expiring"
+    },
+    "cocart_cart_expiration": {
+        "prefix": "cocart_cart_expiration",
+        "body": "cocart_cart_expiration",
+        "description": "Filter: cocart_cart_expiration"
+    },
+    "af_cocart_cart_expiration": {
+        "prefix": "af_cocart_cart_expiration",
+        "body": "add_filter( 'cocart_cart_expiration', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_expiration"
+    },
+    "cocart_customer_id": {
+        "prefix": "cocart_customer_id",
+        "body": "cocart_customer_id",
+        "description": "Filter: cocart_customer_id"
+    },
+    "af_cocart_customer_id": {
+        "prefix": "af_cocart_customer_id",
+        "body": "add_filter( 'cocart_customer_id', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_customer_id"
+    },
+    "cocart_cart_source": {
+        "prefix": "cocart_cart_source",
+        "body": "cocart_cart_source",
+        "description": "Filter: cocart_cart_source"
+    },
+    "af_cocart_cart_source": {
+        "prefix": "af_cocart_cart_source",
+        "body": "add_filter( 'cocart_cart_source', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_source"
+    },
+    "cocart_cart_expiring": {
+        "prefix": "cocart_cart_expiring",
+        "body": "cocart_cart_expiring",
+        "description": "Filter: cocart_cart_expiring"
+    },
+    "af_cocart_cart_expiring": {
+        "prefix": "af_cocart_cart_expiring",
+        "body": "add_filter( 'cocart_cart_expiring', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_expiring"
+    },
+    "cocart_is_cart_data_valid": {
+        "prefix": "cocart_is_cart_data_valid",
+        "body": "cocart_is_cart_data_valid",
+        "description": "Filter: cocart_is_cart_data_valid"
+    },
+    "af_cocart_is_cart_data_valid": {
+        "prefix": "af_cocart_is_cart_data_valid",
+        "body": "add_filter( 'cocart_is_cart_data_valid', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_is_cart_data_valid"
+    },
+    "cocart_merge_cart_content": {
+        "prefix": "cocart_merge_cart_content",
+        "body": "cocart_merge_cart_content",
+        "description": "Filter: cocart_merge_cart_content"
+    },
+    "af_cocart_merge_cart_content": {
+        "prefix": "af_cocart_merge_cart_content",
+        "body": "add_filter( 'cocart_merge_cart_content', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_merge_cart_content"
+    },
+    "cocart_cart_loaded_successful_message": {
+        "prefix": "cocart_cart_loaded_successful_message",
+        "body": "cocart_cart_loaded_successful_message",
+        "description": "Filter: cocart_cart_loaded_successful_message"
+    },
+    "af_cocart_cart_loaded_successful_message": {
+        "prefix": "af_cocart_cart_loaded_successful_message",
+        "body": "add_filter( 'cocart_cart_loaded_successful_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_cart_loaded_successful_message"
+    },
+    "cocart_disable_load_cart": {
+        "prefix": "cocart_disable_load_cart",
+        "body": "cocart_disable_load_cart",
+        "description": "Filter: cocart_disable_load_cart"
+    },
+    "af_cocart_disable_load_cart": {
+        "prefix": "af_cocart_disable_load_cart",
+        "body": "add_filter( 'cocart_disable_load_cart', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_disable_load_cart"
+    },
+    "cocart_load_cart_query_name": {
+        "prefix": "cocart_load_cart_query_name",
+        "body": "cocart_load_cart_query_name",
+        "description": "Filter: cocart_load_cart_query_name"
+    },
+    "af_cocart_load_cart_query_name": {
+        "prefix": "af_cocart_load_cart_query_name",
+        "body": "add_filter( 'cocart_load_cart_query_name', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_load_cart_query_name"
+    },
+    "cocart_get_customer_<section>": {
+        "prefix": "cocart_get_customer_<section>",
+        "body": "cocart_get_customer_<section>",
+        "description": "Filter: cocart_get_customer_<section>"
+    },
+    "af_cocart_get_customer_<section>": {
+        "prefix": "af_cocart_get_customer_<section>",
+        "body": "add_filter( 'cocart_get_customer_<section>', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_get_customer_<section>"
+    },
+    "cocart_page_wc_bar_breadcrumb_<section>": {
+        "prefix": "cocart_page_wc_bar_breadcrumb_<section>",
+        "body": "cocart_page_wc_bar_breadcrumb_<section>",
+        "description": "Filter: cocart_page_wc_bar_breadcrumb_<section>"
+    },
+    "af_cocart_page_wc_bar_breadcrumb_<section>": {
+        "prefix": "af_cocart_page_wc_bar_breadcrumb_<section>",
+        "body": "add_filter( 'cocart_page_wc_bar_breadcrumb_<section>', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_page_wc_bar_breadcrumb_<section>"
+    },
+    "cocart_screen_capability": {
+        "prefix": "cocart_screen_capability",
+        "body": "cocart_screen_capability",
+        "description": "Filter: cocart_screen_capability"
+    },
+    "af_cocart_screen_capability": {
+        "prefix": "af_cocart_screen_capability",
+        "body": "add_filter( 'cocart_screen_capability', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_screen_capability"
+    },
+    "cocart_wc_navigation": {
+        "prefix": "cocart_wc_navigation",
+        "body": "cocart_wc_navigation",
+        "description": "Filter: cocart_wc_navigation"
+    },
+    "af_cocart_wc_navigation": {
+        "prefix": "af_cocart_wc_navigation",
+        "body": "add_filter( 'cocart_wc_navigation', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_wc_navigation"
+    },
+    "cocart_show_admin_notice": {
+        "prefix": "cocart_show_admin_notice",
+        "body": "cocart_show_admin_notice",
+        "description": "Filter: cocart_show_admin_notice"
+    },
+    "af_cocart_show_admin_notice": {
+        "prefix": "af_cocart_show_admin_notice",
+        "body": "add_filter( 'cocart_show_admin_notice', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter snippet: cocart_show_admin_notice"
+    },
+    "cocart_hide_base_tables_missing_nag": {
+        "prefix": "cocart_hide_base_tables_missing_nag",
+        "body": "cocart_hide_base_tables_missing_nag",
+        "description": "Filter: cocart_hide_base_tables_missing_nag"
+    },
+    "af_cocart_hide_base_tables_missing_nag": {
+        "prefix": "af_cocart_hide_base_tables_missing_nag",
+        "body": "add_filter( 'cocart_hide_base_tables_missing_nag', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_hide_base_tables_missing_nag"
+    },
+    "cocart_system_status_sections": {
+        "prefix": "cocart_system_status_sections",
+        "body": "cocart_system_status_sections",
+        "description": "Filter: cocart_system_status_sections"
+    },
+    "af_cocart_system_status_sections": {
+        "prefix": "af_cocart_system_status_sections",
+        "body": "add_filter( 'cocart_system_status_sections', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_system_status_sections"
+    },
+    "cocart_system_status_data": {
+        "prefix": "cocart_system_status_data",
+        "body": "cocart_system_status_data",
+        "description": "Filter: cocart_system_status_data"
+    },
+    "af_cocart_system_status_data": {
+        "prefix": "af_cocart_system_status_data",
+        "body": "add_filter( 'cocart_system_status_data', ${2:'${1:callback}'}${3} );",
+        "description": "Filter snippet: cocart_system_status_data"
+    }
+}

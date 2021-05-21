@@ -1,0 +1,42 @@
+{
+    "CoCart": {
+        "prefix": "CoCart",
+        "body": "CoCart()",
+        "description": "Main instance of CoCart."
+    },
+    "cocart_allowed_image_mime_types": {
+        "prefix": "cocart_allowed_image_mime_types",
+        "body": "cocart_allowed_image_mime_types()",
+        "description": "Returns image mime types users are allowed to upload via the API."
+    },
+    "cocart_upload_dir": {
+        "prefix": "cocart_upload_dir",
+        "body": "cocart_upload_dir( ${1:pathdata} )",
+        "description": "CoCart upload directory."
+    },
+    "cocart_upload_file": {
+        "prefix": "cocart_upload_file",
+        "body": "cocart_upload_file( ${1:file} )",
+        "description": "Upload a file."
+    },
+    "cocart_upload_image_from_url": {
+        "prefix": "cocart_upload_image_from_url",
+        "body": "cocart_upload_image_from_url( ${1:image_url} )",
+        "description": "Upload image from URL."
+    },
+    "cocart_set_uploaded_image_as_attachment": {
+        "prefix": "cocart_set_uploaded_image_as_attachment",
+        "body": "cocart_set_uploaded_image_as_attachment( ${1:upload}, ${2:id} )",
+        "description": "Set uploaded image as attachment."
+    },
+    "cocart_price_no_html": {
+        "prefix": "cocart_price_no_html",
+        "body": "cocart_price_no_html( ${1:price}, ${2:args} )",
+        "description": "Format the price with a currency symbol without HTML wrappers."
+    },
+    "cocart_add_to_cart_message": {
+        "prefix": "cocart_add_to_cart_message",
+        "body": "cocart_add_to_cart_message( ${1:products}, ${2:show_qty}, ${3:return} )",
+        "description": "Add to cart messages."
+    }
+}
