@@ -1,4 +1,4 @@
-<h1 align="center">CoCart - Snippets & Autocomplete <a href="https://github.com/co-cart/co-cart/releases/latest/"><img src="https://img.shields.io/static/v1?goVersion=&message=v1.0.0&label=&color=9a6fc4&style=flat-square"></a></h1>
+<h1 align="center">CoCart - Snippets & Autocomplete <a href="https://github.com/co-cart/co-cart/releases/latest/"><img src="https://img.shields.io/static/v1?goVersion=&message=v1.1.0&label=&color=9a6fc4&style=flat-square"></a></h1>
 
 <br>
 
