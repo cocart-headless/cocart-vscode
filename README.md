@@ -10,13 +10,12 @@ This extension for Visual Studio Code adds [CoCart](https://cocart.xyz) snippets
 
 Autocomplete for:
 
-    CoCart version: 3.0
+    CoCart version: 3.1
 
     Functions : 8
-    Actions   : 9
-    Filters   : 116
+    Actions   : 12
+    Filters   : 139
     Constants : 20
-
 
 ---
 
