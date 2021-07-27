@@ -88,5 +88,35 @@
         "prefix": "aa_cocart_item_quantity_changed",
         "body": "add_action( 'cocart_item_quantity_changed', ${2:'${1:callback}'}${3}, 10, 2 );",
         "description": "Action: cocart_item_quantity_changed"
-     }
+    },
+    "cocart_register_extension_callback": {
+        "prefix": "cocart_register_extension_callback",
+        "body": "cocart_register_extension_callback",
+        "description": "Action: cocart_register_extension_callback"
+    },
+    "aa_cocart_register_extension_callback": {
+        "prefix": "aa_cocart_register_extension_callback",
+        "body": "add_action( 'cocart_register_extension_callback', ${2:'${1:callback}'}${3}, 10, 1 );",
+        "description": "Action: cocart_register_extension_callback"
+    },
+    "cocart_setup_wizard_footer": {
+        "prefix": "cocart_setup_wizard_footer",
+        "body": "cocart_setup_wizard_footer",
+        "description": "Action: cocart_setup_wizard_footer"
+    },
+    "aa_cocart_setup_wizard_footer": {
+        "prefix": "aa_cocart_setup_wizard_footer",
+        "body": "add_action( 'cocart_setup_wizard_footer', ${2:'${1:callback}'}${3} );",
+        "description": "Action: cocart_setup_wizard_footer"
+    },
+    "cocart_insert_product_review": {
+        "prefix": "cocart_insert_product_review",
+        "body": "cocart_insert_product_review",
+        "description": "Action: cocart_insert_product_review"
+    },
+    "aa_cocart_insert_product_review": {
+        "prefix": "aa_cocart_insert_product_review",
+        "body": "add_action( 'cocart_insert_product_review', ${2:'${1:callback}'}${3}, 10, 3 );",
+        "description": "Action: cocart_insert_product_review"
+    }
 }
