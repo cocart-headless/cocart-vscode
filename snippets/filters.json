@@ -1388,5 +1388,225 @@
         "prefix": "af_cocart_secure_registered_users",
         "body": "add_filter( 'cocart_secure_registered_users', ${2:'${1:callback}'}${3} );",
         "description": "Filter snippet: cocart_secure_registered_users"
-    }
+    },
+    "cocart_prevent_wc_admin_note_created": {
+        "prefix": "cocart_prevent_wc_admin_note_created",
+        "body": "cocart_prevent_wc_admin_note_created",
+        "description": "Filter allows you to prevent WooCommerce Admin notes by CoCart from being created."
+    },
+    "af_cocart_prevent_wc_admin_note_created": {
+        "prefix": "af_cocart_prevent_wc_admin_note_created",
+        "body": "add_filter( 'cocart_prevent_wc_admin_note_created', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to prevent WooCommerce Admin notes by CoCart from being created."
+    },
+    "cocart_override_cart_item": {
+        "prefix": "cocart_override_cart_item",
+        "body": "cocart_override_cart_item",
+        "description": "Filter allows developers to override cart item for anything."
+    },
+    "af_cocart_override_cart_item": {
+        "prefix": "af_cocart_override_cart_item",
+        "body": "add_filter( 'cocart_override_cart_item', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter allows developers to override cart item for anything."
+    },
+    "cocart_add_item_query_parameters": {
+        "prefix": "cocart_add_item_query_parameters",
+        "body": "cocart_add_item_query_parameters",
+        "description": "Filter allows developers to extend the query parameters for adding an item."
+    },
+    "af_cocart_add_item_query_parameters": {
+        "prefix": "af_cocart_add_item_query_parameters",
+        "body": "add_filter( 'cocart_add_item_query_parameters', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to extend the query parameters for adding an item."
+    },
+    "cocart_add_items_query_parameters": {
+        "prefix": "cocart_add_items_query_parameters",
+        "body": "cocart_add_items_query_parameters",
+        "description": "Filter allows developers to extend the query parameters for adding an items."
+    },
+    "af_cocart_add_items_query_parameters": {
+        "prefix": "af_cocart_add_items_query_parameters",
+        "body": "add_filter( 'cocart_add_items_query_parameters', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to extend the query parameters for adding an items."
+    },
+    "cocart_cart_query_parameters": {
+        "prefix": "cocart_cart_query_parameters",
+        "body": "cocart_cart_query_parameters",
+        "description": "Filter allows developers to extend the query parameters for getting the cart."
+    },
+    "af_cocart_cart_query_parameters": {
+        "prefix": "af_cocart_cart_query_parameters",
+        "body": "add_filter( 'cocart_cart_query_parameters', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to extend the query parameters for getting the cart."
+    },
+    "cocart_cart_item_restored_title": {
+        "prefix": "cocart_cart_item_restored_title",
+        "body": "cocart_cart_item_restored_title",
+        "description": "Filter allows developers to change the title of the product restored for the notice."
+    },
+    "af_cocart_cart_item_restored_title": {
+        "prefix": "af_cocart_cart_item_restored_title",
+        "body": "add_filter( 'cocart_cart_item_restored_title', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to change the title of the product restored for the notice."
+    },
+    "cocart_cart_item_restored_message": {
+        "prefix": "cocart_cart_item_restored_message",
+        "body": "cocart_cart_item_restored_message",
+        "description": "Filter allows developers to change the message of the restored item notice."
+    },
+    "af_cocart_cart_item_restored_message": {
+        "prefix": "af_cocart_cart_item_restored_message",
+        "body": "add_filter( 'cocart_cart_item_restored_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to change the message of the restored item notice."
+    },
+    "cocart_cart_updated": {
+        "prefix": "cocart_cart_updated",
+        "body": "cocart_cart_updated",
+        "description": "Filter allows developers to change the message of the restored item notice."
+    },
+    "af_cocart_cart_updated": {
+        "prefix": "af_cocart_cart_updated",
+        "body": "add_filter( 'cocart_cart_updated', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to hook in once the cart has updated."
+    },
+    "cocart_cart_item_subtotal_tax": {
+        "prefix": "cocart_cart_item_subtotal_tax",
+        "body": "cocart_cart_item_subtotal_tax",
+        "description": "Filter allows developers to change the item subtotal tax."
+    },
+    "af_cocart_cart_item_subtotal_tax": {
+        "prefix": "af_cocart_cart_item_subtotal_tax",
+        "body": "add_filter( 'cocart_cart_item_subtotal_tax', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to change the item subtotal tax."
+    },
+    "cocart_cart_item_total": {
+        "prefix": "cocart_cart_item_total",
+        "body": "cocart_cart_item_total",
+        "description": "Filter allows developers to change the item total."
+    },
+    "af_cocart_cart_item_total": {
+        "prefix": "af_cocart_cart_item_total",
+        "body": "add_filter( 'cocart_cart_item_total', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to change the item total."
+    },
+    "cocart_cart_item_tax": {
+        "prefix": "cocart_cart_item_tax",
+        "body": "cocart_cart_item_tax",
+        "description": "Filter allows developers to change the item tax."
+    },
+    "af_cocart_cart_item_tax": {
+        "prefix": "af_cocart_cart_item_tax",
+        "body": "add_filter( 'cocart_cart_item_tax', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to change the item tax."
+    },
+    "cocart_update_cart_validation": {
+        "prefix": "cocart_update_cart_validation",
+        "body": "cocart_update_cart_validation",
+        "description": "Filter allows developers to change the validation for updating a specific item in the cart."
+    },
+    "af_cocart_update_cart_validation": {
+        "prefix": "af_cocart_update_cart_validation",
+        "body": "add_filter( 'cocart_update_cart_validation', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to change the validation for updating a specific item in the cart."
+    },
+    "cocart_prepare_money_disable_decimals": {
+        "prefix": "cocart_prepare_money_disable_decimals",
+        "body": "cocart_prepare_money_disable_decimals",
+        "description": "Filter allows you to disable the decimals used when returning the monetary value."
+    },
+    "af_cocart_prepare_money_disable_decimals": {
+        "prefix": "af_cocart_prepare_money_disable_decimals",
+        "body": "add_filter( 'cocart_prepare_money_disable_decimals', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to disable the decimals used when returning the monetary value."
+    },
+    "cocart_quantity_maximum_allowed": {
+        "prefix": "cocart_quantity_maximum_allowed",
+        "body": "cocart_quantity_maximum_allowed",
+        "description": "Filter allows control over the maximum quantity a customer is able to add said item to the cart."
+    },
+    "af_cocart_quantity_maximum_allowed": {
+        "prefix": "af_cocart_quantity_maximum_allowed",
+        "body": "add_filter( 'cocart_quantity_maximum_allowed', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows control over the maximum quantity a customer is able to add said item to the cart."
+    },
+    "cocart_quantity_minimum_requirement": {
+        "prefix": "cocart_quantity_minimum_requirement",
+        "body": "cocart_quantity_minimum_requirement",
+        "description": "Filter allows you to specify minimum quantity requirement if not 1."
+    },
+    "af_cocart_quantity_minimum_requirement": {
+        "prefix": "af_cocart_quantity_minimum_requirement",
+        "body": "add_filter( 'cocart_quantity_minimum_requirement', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to specify minimum quantity requirement if not 1."
+    },
+    "cocart_product_not_enough_stock_message": {
+        "prefix": "cocart_product_not_enough_stock_message",
+        "body": "cocart_product_not_enough_stock_message",
+        "description": "Filter allows you to change the message about product not having enough stock."
+    },
+    "af_cocart_product_not_enough_stock_message": {
+        "prefix": "af_cocart_product_not_enough_stock_message",
+        "body": "add_filter( 'cocart_product_not_enough_stock_message', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to change the message about product not having enough stock."
+    },
+    "cocart_products_variable_empty_price": {
+        "prefix": "cocart_products_variable_empty_price",
+        "body": "cocart_products_variable_empty_price",
+        "description": "Filter allows you to provide a custom price range for variable products should none exist yet."
+    },
+    "af_cocart_products_variable_empty_price": {
+        "prefix": "af_cocart_products_variable_empty_price",
+        "body": "add_filter( 'cocart_products_variable_empty_price', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to provide a custom price range for variable products should none exist yet."
+    },
+    "cocart_products_get_price_range": {
+        "prefix": "cocart_products_get_price_range",
+        "body": "cocart_products_get_price_range",
+        "description": "Filter allows you to alter the price range for variable products."
+    },
+    "af_cocart_products_get_price_range": {
+        "prefix": "af_cocart_products_get_price_range",
+        "body": "add_filter( 'cocart_products_get_price_range', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to alter the price range for variable products."
+    },
+    "cocart_products_add_to_cart_rest_url": {
+        "prefix": "cocart_products_add_to_cart_rest_url",
+        "body": "cocart_products_add_to_cart_rest_url",
+        "description": "Filter allows for quick easy direct access to POST item to cart for other product types."
+    },
+    "af_cocart_products_add_to_cart_rest_url": {
+        "prefix": "af_cocart_products_add_to_cart_rest_url",
+        "body": "add_filter( 'cocart_products_add_to_cart_rest_url', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows for quick easy direct access to POST item to cart for other product types."
+    },
+    "cocart_products_category_thumbnail": {
+        "prefix": "cocart_products_category_thumbnail",
+        "body": "cocart_products_category_thumbnail",
+        "description": "Filter allows developers to change the thumbnail ID for product category."
+    },
+    "af_cocart_products_category_thumbnail": {
+        "prefix": "af_cocart_products_category_thumbnail",
+        "body": "add_filter( 'cocart_products_category_thumbnail', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to change the thumbnail ID for product category."
+    },
+    "cocart_products_category_thumbnail_size": {
+        "prefix": "cocart_products_category_thumbnail_size",
+        "body": "cocart_products_category_thumbnail_size",
+        "description": "Filter allows developers to change the thumbnail size for product category."
+    },
+    "af_cocart_products_category_thumbnail_size": {
+        "prefix": "af_cocart_products_category_thumbnail_size",
+        "body": "add_filter( 'cocart_products_category_thumbnail_size', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to change the thumbnail size for product category."
+    },
+    "cocart_products_category_thumbnail_src": {
+        "prefix": "cocart_products_category_thumbnail_src",
+        "body": "cocart_products_category_thumbnail_src",
+        "description": "Filter allows developers to change the thumbnail src for product category."
+    },
+    "af_cocart_products_category_thumbnail_src": {
+        "prefix": "af_cocart_products_category_thumbnail_src",
+        "body": "add_filter( 'cocart_products_category_thumbnail_src', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows developers to change the thumbnail src for product category."
+    },
 }

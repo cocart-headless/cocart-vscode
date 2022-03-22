@@ -1,8 +1,8 @@
 {
     "name": "cocart-vscode",
     "displayName": "CoCart - Snippets & Autocomplete",
-    "description": "A collection of CoCart snippets and autocompletions.",
-    "version": "1.1.0",
+    "description": "A collection of CoCart snippets and autocompletion.",
+    "version": "1.2.0",
     "publisher": "sebastien-dumont",
     "author": {
         "name": "Sébastien Dumont"

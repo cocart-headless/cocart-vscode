@@ -38,5 +38,30 @@
         "prefix": "cocart_add_to_cart_message",
         "body": "cocart_add_to_cart_message( ${1:products}, ${2:show_qty}, ${3:return} )",
         "description": "Add to cart messages."
+    },
+    "cocart_task_clear_carts": {
+        "prefix": "cocart_task_clear_carts",
+        "body": "cocart_task_clear_carts( ${1:return_results} )",
+        "description": "Clears all carts from the database."
+    },
+    "cocart_task_cleanup_carts": {
+        "prefix": "cocart_task_cleanup_carts",
+        "body": "cocart_task_cleanup_carts()",
+        "description": "Cleans up carts from the database that have expired."
+    },
+    "cocart_get_store_currency": {
+        "prefix": "cocart_get_store_currency",
+        "body": "cocart_get_store_currency()",
+        "description": "Prepares a list of store currency data to return in responses."
+    },
+    "cocart_prepare_money_response": {
+        "prefix": "cocart_prepare_money_response",
+        "body": "cocart_prepare_money_response( ${1:amount}, ${2:decimals}, ${3:rounding_mode} )",
+        "description": "Convert monetary values from WooCommerce to string based integers, using the smallest unit of a currency."
+    },
+    "cocart_prepare_date_response": {
+        "prefix": "cocart_prepare_date_response",
+        "body": "cocart_prepare_date_response( ${1:date}, ${2:utc} )",
+        "description": "Parses and formats a date for ISO8601/RFC3339."
     }
 }
