@@ -469,15 +469,15 @@
         "body": "add_filter( 'cocart_product_cannot_be_purchased_message', ${2:'${1:callback}'}${3}, 10, 2 );",
         "description": "Filter snippet: cocart_product_cannot_be_purchased_message"
     },
-    "cocart_cart_schema": {
-        "prefix": "cocart_cart_schema",
-        "body": "cocart_cart_schema",
-        "description": "Filter: cocart_cart_schema"
+    "cocart_cart_items_schema": {
+        "prefix": "cocart_cart_items_schema",
+        "body": "cocart_cart_items_schema",
+        "description": "Filter allows you to extend the cart schema properties for items."
     },
-    "af_cocart_cart_schema": {
-        "prefix": "af_cocart_cart_schema",
-        "body": "add_filter( 'cocart_cart_schema', ${2:'${1:callback}'}${3} );",
-        "description": "Filter snippet: cocart_cart_schema"
+    "af_cocart_cart_items_schema": {
+        "prefix": "af_cocart_cart_items_schema",
+        "body": "add_filter( 'cocart_cart_items_schema', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to extend the cart schema properties for items."
     },
     "cocart_add_to_cart_handler": {
         "prefix": "cocart_add_to_cart_handler",
@@ -736,7 +736,7 @@
     },
     "af_cocart_authenticate": {
         "prefix": "af_cocart_authenticate",
-        "body": "add_filter( 'cocart_authenticate', ${2:'${1:callback}'}${3} );",
+        "body": "add_filter( 'cocart_authenticate', ${2:'${1:callback}'}${3}, 10, 3 );",
         "description": "Filter snippet: cocart_authenticate"
     },
     "cocart_disable_all_cors": {
@@ -1609,4 +1609,124 @@
         "body": "add_filter( 'cocart_products_category_thumbnail_src', ${2:'${1:callback}'}${3} );",
         "description": "Filter allows developers to change the thumbnail src for product category."
     },
+    "cocart_show_upgrade_action_link": {
+        "prefix": "cocart_show_upgrade_action_link",
+        "body": "cocart_show_upgrade_action_link",
+        "description": "Filter allows to show the upgrade option on the plugins list."
+    },
+    "af_cocart_show_upgrade_action_link": {
+        "prefix": "af_cocart_show_upgrade_action_link",
+        "body": "add_filter( 'cocart_show_upgrade_action_link', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows to show the upgrade option on the plugins list."
+    },
+    "cocart_register_submenu_page": {
+        "prefix": "cocart_register_submenu_page",
+        "body": "cocart_register_submenu_page",
+        "description": "Filter allows to register submenu_pages class handlers."
+    },
+    "af_cocart_register_submenu_page": {
+        "prefix": "af_cocart_register_submenu_page",
+        "body": "add_filter( 'cocart_register_submenu_page', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows to register submenu_pages class handlers."
+    },
+    "cocart_login_extras": {
+        "prefix": "cocart_login_extras",
+        "body": "cocart_login_extras",
+        "description": "Filter allows you to add extra information based on the current user."
+    },
+    "af_cocart_login_extras": {
+        "prefix": "af_cocart_login_extras",
+        "body": "add_filter( 'cocart_login_extras', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter allows you to add extra information based on the current user."
+    },
+    "cocart_send_cache_control_patterns": {
+        "prefix": "cocart_send_cache_control_patterns",
+        "body": "cocart_send_cache_control_patterns",
+        "description": "Filter allows you to specify the routes to prevent CoCart from being added to browser cache."
+    },
+    "af_cocart_send_cache_control_patterns": {
+        "prefix": "af_cocart_send_cache_control_patterns",
+        "body": "add_filter( 'cocart_send_cache_control_patterns', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to specify the routes to prevent CoCart from being added to browser cache."
+    },
+    "cocart_products_ignore_private_meta_keys": {
+        "prefix": "cocart_products_ignore_private_meta_keys",
+        "body": "cocart_products_ignore_private_meta_keys",
+        "description": "Filter allows you to prevent meta data for the product to return."
+    },
+    "af_cocart_products_ignore_private_meta_keys": {
+        "prefix": "af_cocart_products_ignore_private_meta_keys",
+        "body": "add_filter( 'cocart_products_ignore_private_meta_keys', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to prevent meta data for the product to return."
+    },
+    "cocart_products_get_safe_meta_data": {
+        "prefix": "cocart_products_get_safe_meta_data",
+        "body": "cocart_products_get_safe_meta_data",
+        "description": "Filter allows you to control what remaining product meta data is safe to return."
+    },
+    "af_cocart_products_get_safe_meta_data": {
+        "prefix": "af_cocart_products_get_safe_meta_data",
+        "body": "add_filter( 'cocart_products_get_safe_meta_data', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Filter allows you to control what remaining product meta data is safe to return."
+    },
+    "cocart_products_get_related_products_exclude_ids": {
+        "prefix": "cocart_products_get_related_products_exclude_ids ",
+        "body": "cocart_products_get_related_products_exclude_ids ",
+        "description": "Filter allows you to exclude products from related products by passing their product ID's."
+    },
+    "af_cocart_products_get_related_products_exclude_ids": {
+        "prefix": "af_cocart_products_get_related_products_exclude_ids",
+        "body": "add_filter( 'cocart_products_get_related_products_exclude_ids', ${2:'${1:callback}'}${3} );",
+        "description": "Filter allows you to exclude products from related products by passing their product ID's."
+    },
+    "cocart_is_offline_mode": {
+        "prefix": "cocart_is_offline_mode ",
+        "body": "cocart_is_offline_mode ",
+        "description": "Filters CoCart's offline mode."
+    },
+    "af_cocart_is_offline_mode": {
+        "prefix": "af_cocart_is_offline_mode",
+        "body": "add_filter( 'cocart_is_offline_mode', ${2:'${1:callback}'}${3} );",
+        "description": "Filters CoCart's offline mode."
+    },
+    "cocart_is_local_site": {
+        "prefix": "cocart_is_local_site ",
+        "body": "cocart_is_local_site ",
+        "description": "Filters is_local_site() check."
+    },
+    "af_cocart_is_local_site": {
+        "prefix": "af_cocart_is_local_site",
+        "body": "add_filter( 'cocart_is_local_site', ${2:'${1:callback}'}${3} );",
+        "description": "Filters is_local_site() check."
+    },
+    "cocart_known_staging": {
+        "prefix": "cocart_known_staging ",
+        "body": "cocart_known_staging ",
+        "description": "Filters the flags of known staging sites."
+    },
+    "af_cocart_known_staging": {
+        "prefix": "af_cocart_known_staging",
+        "body": "add_filter( 'cocart_known_staging', ${2:'${1:callback}'}${3} );",
+        "description": "Filters the flags of known staging sites."
+    },
+    "cocart_is_staging_site": {
+        "prefix": "cocart_is_staging_site ",
+        "body": "cocart_is_staging_site ",
+        "description": "Filters is_staging_site() check."
+    },
+    "af_cocart_is_staging_site": {
+        "prefix": "af_cocart_is_staging_site",
+        "body": "add_filter( 'cocart_is_staging_site', ${2:'${1:callback}'}${3} );",
+        "description": "Filters is_staging_site() check."
+    },
+    "cocart_updates_screen_capability": {
+        "prefix": "cocart_updates_screen_capability ",
+        "body": "cocart_updates_screen_capability ",
+        "description": "Filters the update screen capability."
+    },
+    "af_cocart_updates_screen_capability": {
+        "prefix": "af_cocart_updates_screen_capability",
+        "body": "add_filter( 'cocart_updates_screen_capability', ${2:'${1:callback}'}${3} );",
+        "description": "Filters the update screen capability."
+    }
 }

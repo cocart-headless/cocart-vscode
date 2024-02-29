@@ -66,7 +66,7 @@
     },
     "aa_cocart_item_removed": {
         "prefix": "aa_cocart_item_removed",
-        "body": "add_action( 'cocart_item_removed', ${2:'${1:callback}'}${3}, 10, 1 );",
+        "body": "add_action( 'cocart_item_removed', ${2:'${1:callback}'}${3} );",
         "description": "Action: cocart_item_removed"
     },
     "cocart_item_restored": {
@@ -76,7 +76,7 @@
     },
     "aa_cocart_item_restored": {
         "prefix": "aa_cocart_item_restored",
-        "body": "add_action( 'cocart_item_restored', ${2:'${1:callback}'}${3}, 10, 1 );",
+        "body": "add_action( 'cocart_item_restored', ${2:'${1:callback}'}${3} );",
         "description": "Action: cocart_item_restored"
     },
     "cocart_item_quantity_changed": {
@@ -96,7 +96,7 @@
     },
     "aa_cocart_register_extension_callback": {
         "prefix": "aa_cocart_register_extension_callback",
-        "body": "add_action( 'cocart_register_extension_callback', ${2:'${1:callback}'}${3}, 10, 1 );",
+        "body": "add_action( 'cocart_register_extension_callback', ${2:'${1:callback}'}${3} );",
         "description": "Action: cocart_register_extension_callback"
     },
     "cocart_setup_wizard_footer": {
@@ -118,5 +118,45 @@
         "prefix": "aa_cocart_insert_product_review",
         "body": "add_action( 'cocart_insert_product_review', ${2:'${1:callback}'}${3}, 10, 3 );",
         "description": "Action: cocart_insert_product_review"
+    },
+    "cocart_updated": {
+        "prefix": "cocart_updated",
+        "body": "cocart_updated",
+        "description": "Action: cocart_updated"
+    },
+    "aa_cocart_updated": {
+        "prefix": "aa_cocart_updated",
+        "body": "add_action( 'cocart_updated', ${2:'${1:callback}'}${3} );",
+        "description": "Action: cocart_updated"
+    },
+    "cocart_rest_api_controllers": {
+        "prefix": "cocart_rest_api_controllers",
+        "body": "cocart_rest_api_controllers",
+        "description": "Action: cocart_rest_api_controllers"
+    },
+    "aa_cocart_rest_api_controllers": {
+        "prefix": "aa_cocart_rest_api_controllers",
+        "body": "add_action( 'cocart_rest_api_controllers', ${2:'${1:callback}'}${3} );",
+        "description": "Action: cocart_rest_api_controllers"
+    },
+    "cocart_load_cart_override": {
+        "prefix": "cocart_load_cart_override",
+        "body": "cocart_load_cart_override",
+        "description": "Action: cocart_load_cart_override"
+    },
+    "aa_cocart_load_cart_override": {
+        "prefix": "aa_cocart_load_cart_override",
+        "body": "add_action( 'cocart_load_cart_override', ${2:'${1:callback}'}${3}, 10, 2 );",
+        "description": "Action: cocart_load_cart_override"
+    },
+    "cocart_cart_loaded": {
+        "prefix": "cocart_cart_loaded",
+        "body": "cocart_cart_loaded",
+        "description": "Fires once a cart has been loaded from session."
+    },
+    "aa_cocart_cart_loaded": {
+        "prefix": "aa_cocart_cart_loaded",
+        "body": "add_action( 'cocart_cart_loaded', ${2:'${1:callback}'}${3} );",
+        "description": "Fires once a cart has been loaded from session."
     }
 }

@@ -1,0 +1,47 @@
+{
+    "COCART_PLUS_FILE": {
+        "prefix": "COCART_PLUS_FILE",
+        "body": "COCART_PLUS_FILE",
+        "description": "Constant: COCART_PLUS_FILE"
+    },
+    "COCART_PLUS_ABSPATH": {
+        "prefix": "COCART_PLUS_ABSPATH",
+        "body": "COCART_PLUS_ABSPATH",
+        "description": "Constant: COCART_PLUS_ABSPATH"
+    },
+    "COCART_PLUS_PLUGIN_BASENAME": {
+        "prefix": "COCART_PLUS_PLUGIN_BASENAME",
+        "body": "COCART_PLUS_PLUGIN_BASENAME",
+        "description": "Constant: COCART_PLUS_PLUGIN_BASENAME"
+    },
+    "COCART_PLUS_VERSION": {
+        "prefix": "COCART_PLUS_VERSION",
+        "body": "COCART_PLUS_VERSION",
+        "description": "Constant: COCART_PLUS_VERSION"
+    },
+    "COCART_PLUS_SLUG": {
+        "prefix": "COCART_PLUS_SLUG",
+        "body": "COCART_PLUS_SLUG",
+        "description": "Constant: COCART_PLUS_SLUG"
+    },
+    "COCART_PLUS_URL_PATH": {
+        "prefix": "COCART_PLUS_URL_PATH",
+        "body": "COCART_PLUS_URL_PATH",
+        "description": "Constant: COCART_PLUS_URL_PATH"
+    },
+    "COCART_PLUS_FILE_PATH": {
+        "prefix": "COCART_PLUS_FILE_PATH",
+        "body": "COCART_PLUS_FILE_PATH",
+        "description": "Constant: COCART_PLUS_FILE_PATH"
+    },
+    "COCART_PLUS_REVIEW_URL": {
+        "prefix": "COCART_PLUS_REVIEW_URL",
+        "body": "COCART_PLUS_REVIEW_URL",
+        "description": "Constant: COCART_PLUS_REVIEW_URL"
+    },
+    "COCART_PLUS_TRANSLATION_URL": {
+        "prefix": "COCART_PLUS_TRANSLATION_URL",
+        "body": "COCART_PLUS_TRANSLATION_URL",
+        "description": "Constant: COCART_PLUS_TRANSLATION_URL"
+    }
+}
